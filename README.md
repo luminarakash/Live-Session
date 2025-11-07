@@ -3,8 +3,10 @@
 A modern **Live Session Web App** built with the **MERN Stack (MongoDB, Express, React, Node.js)** that allows an admin to start a live session and generate a unique session link for students.  
 Both admin and students can join and view the same video player with full controls — all in real time.
 
+![User Home Page](https://github.com/luminarakash/Live-Session/blob/main/ss/Screenshot%202025-11-07%20193621.png)
 ---
 
+![User Home Page](https://github.com/luminarakash/Live-Session/blob/main/ss/Screenshot%202025-11-07%20193530.png)
 ## 🚀 Features
 
 ✅ **Start Live Session** — Admin can instantly create a new live session  
