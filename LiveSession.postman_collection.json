@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "543e5519-af88-478c-95a2-bdc45c1a03d3",
+		"name": "LiveSession",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "34459307"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"message\": \"Session created successfully\",\r\n  \"data\": {\r\n    \"_id\": \"672f81bba6d46b47ddc9f982\",\r\n    \"type\": \"admin\",\r\n    \"unique_id\": \"c23f8a6f-7ff7-48e4-9b26-f1d17b73c7d1\",\r\n    \"userurl\": \"http://localhost:3000/session/c23f8a6f-7ff7-48e4-9b26-f1d17b73c7d1\"\r\n  }\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/api/session/create"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/api/session/084d493b-4f7d-4a53-98ee-88e5d15acf16"
+			},
+			"response": []
+		}
+	]
+}
